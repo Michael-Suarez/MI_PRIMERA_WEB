@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera WEB</title>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8e1f9e8277.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-spider"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca-de">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="#seccion-5">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p>¡Bienvenido a mi web!</p>
+                    <p>
+                        Me llamo Michael, naci en Bogota, Colombia, me gustan los videojuegos y actualmente
+                        me encuentro estudiando ingenieria de sistemas y computacion.
+                    </p>
+                </div>
+                <div class="acerca-img">
+                    <img src="/MI_PRIMERA_WEB/images/acerca de.jpeg" alt="imagen portada">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="/MI_PRIMERA_WEB/images/street.jpg" alt="">
+            </section>
+            <section class="seccion-3">
+                <h2>Trabajos</h2>
+                <div class="trabajos">
+                    <div class="trabajo">
+                        <img src="/MI_PRIMERA_WEB/images/HK.png" alt="">
+                        <h3>Titulo 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta architecto voluptatibus, quo molestias inventore similique est repellendus earum dignissimos impedit ab atque tempora nam ut, laudantium vel itaque dolores!
+                        </p>
+                        <a href="">Leer mas</a>
+                    </div>
+                    <div class="trabajo">
+                        <img src="/MI_PRIMERA_WEB/images/HK.png" alt="">
+                        <h3>Titulo 2</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta architecto voluptatibus, quo molestias inventore similique est repellendus earum dignissimos impedit ab atque tempora nam ut, laudantium vel itaque dolores!
+                        </p>
+                        <a href="">Leer mas</a>
+                    </div>
+                    <div class="trabajo">
+                        <img src="/MI_PRIMERA_WEB/images/HK.png" alt="">
+                        <h3>Titulo 3</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta architecto voluptatibus, quo molestias inventore similique est repellendus earum dignissimos impedit ab atque tempora nam ut, laudantium vel itaque dolores!
+                        </p>
+                        <a href="">Leer mas</a>
+                    </div>
+                </div> 
+            </section>
+            <section class="seccion-5">
+                <div class="form-header">
+                    <h1>Contacto</h1>
+                    <p><em>¡Esperamos tu consulta!</em></p>
+            
+                    <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="pepe@gmail.com"
+                        />
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+            
+                    <div class="form-row">
+                        <button>Enviar</button>
+                    </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer">
+                <h3>Contacto</h3>
+                <nav>
+                    <Ul>
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                        <li>Whatsapp</li>
+                    </Ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
